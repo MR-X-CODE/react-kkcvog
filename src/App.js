@@ -29,7 +29,7 @@ const App = () => {
       <div className="calculator-wrapper">
         <Input text={text} result={result} />
         {
-          idItems.map((item, index) => <button id={item}>{index}</button> )
+          idItems.map((item, index) => <button key={index} id={item}>{index}</button> )
         }
         {/* <div className="row">
           <Button symbols="7" handleClick={addToText}/>
