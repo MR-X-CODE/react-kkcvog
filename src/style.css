@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator-wrapper {
+  background-color: white;
+  width: 400px;
+  border-radius: 16px;
+}

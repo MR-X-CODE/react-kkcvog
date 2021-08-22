@@ -1,0 +1,16 @@
+.input-wrapper {
+  height: 2em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 18px;
+}
+.result {
+  flex: 1;
+  font-size: 24px;
+}
+.text {
+  flex: 1;
+  font-family: 14px;
+}
