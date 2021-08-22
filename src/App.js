@@ -29,9 +29,11 @@ const App = () => {
       <div className="calculator-wrapper">
         <h1>changes</h1>
         <Input text={text} result={result} />
-        {
-          idItems.map((item, index) => <button key={index} id={item}>{index}</button> )
-        }
+        <div id="btn-container">
+          {
+            idItems.map((item, index) => <button key={index} id={item}>{index}</button> )
+          }
+        </div>
       </div>
     </div>
   );
