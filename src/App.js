@@ -27,35 +27,11 @@ const App = () => {
   return (
     <div className="App">
       <div className="calculator-wrapper">
+        <h1>changes</h1>
         <Input text={text} result={result} />
         {
           idItems.map((item, index) => <button key={index} id={item}>{index}</button> )
         }
-        {/* <div className="row">
-          <Button symbols="7" handleClick={addToText}/>
-          <Button symbols="8" handleClick={addToText}/>
-          <Button symbols="9" handleClick={addToText}/>
-          <Button symbols="/" color={ButtonColor}handleClick={addToText}/>
-        </div>
-        <div className="row">
-          <Button symbols="4" handleClick={addToText}/>
-          <Button symbols="5" handleClick={addToText}/>
-          <Button symbols="6" handleClick={addToText}/>
-          <Button symbols="*" color={ButtonColor} handleClick={addToText} />
-        </div>
-        <div className="row">
-          <Button symbols="1" handleClick={addToText}/>
-          <Button symbols="2" handleClick={addToText}/>
-          <Button symbols="3" handleClick={addToText}/>
-          <Button symbols="+" color={ButtonColor} handleClick={addToText}/>
-        </div>
-        <div className="row">
-          <Button symbols="0" handleClick={addToText}/>
-          <Button symbols="." handleClick={addToText}/>
-          <Button symbols="=" handleClick={calculateResult}/>
-          <Button symbols="-" color={ButtonColor} handleClick={addToText} />
-        </div>
-        <Button symbols="Clear" color="red" handleClick={resetInput} /> */}
       </div>
     </div>
   );
